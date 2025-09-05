@@ -2,9 +2,9 @@
 # Main pipeline to check allergenicity with sliding windows and BLAST
 
 # ---- USER INPUT ----
-QUERY_FASTA="/Users/speluso2/Desktop/EFSA/Allergenicity_script/test_sequences/Enzymes/subtilisin.fasta"           # your protein sequence
+QUERY_FASTA="subtilisin.fasta"           # your protein sequence
 WINDOW_SCRIPT="generate_windows.py"         # Python script to create sliding windows
-BLAST_DB_FASTA="/Users/speluso2/Desktop/EFSA/Allergenicity_script/COMPARE2025-Data-Download/COMPARE2025-FastA-Seq-01-27-2025.fasta"
+BLAST_DB_FASTA="COMPARE2025-FastA-Seq-01-27-2025.fasta"
 BLAST_DB_NAME="allergen_db"
 WINDOWS_FASTA="sliding_windows.fasta"
 BLAST_RESULTS="blast_results.tsv"
