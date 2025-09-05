@@ -1,8 +1,0 @@
-{
-  "name": "Python + R + BLAST Dev",
-  "build": { "dockerfile": "Dockerfile" },
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
-  "postCreateCommand": "pip install -r requirements.txt && Rscript install.R"
-}
